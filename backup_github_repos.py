@@ -115,8 +115,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     token = sys.argv[1]
-    rate_limit_seconds = int(sys.argv[2]) if len(sys.argv) >= 3 else 0
+    rate_limit_seconds = int(sys.argv[2]) if len(sys.argv) >= 3 else 1.0
     backup = GithubBackup(token, rate_limit_seconds)
     
-    
-        backup.backup_repositories()
+    backup.backup_repositories()
