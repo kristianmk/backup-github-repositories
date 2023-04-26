@@ -1,2 +1,4 @@
 # backup-github-repositories
-Easy back up of github repos.
+Easy backup of github repos.
+
+Written using GPT4 with minor manual guiding.
